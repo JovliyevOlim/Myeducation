@@ -1,0 +1,151 @@
+.b-body{
+    display: flex;
+}
+.info{
+    padding: 2rem  0 0 0 ;
+    width: 92%;
+    background-color: var(--color1-green);
+}
+.info-footer h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: var(--color2-white);
+}
+.info-img{
+    width: 250px;
+    height: 200px;
+}
+.text-scroll{
+    color: var(--color2-white);
+}
+.info-body{
+    color: var(--color3-green-best);
+
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.education-info{
+    padding: 0 2rem;
+    gap: 1rem;
+    display: flex;
+
+
+}
+.text-run{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 0 15px;
+    background-color: var(--color3-green-best);
+    width: 4%;
+    height: 368px;
+    overflow: hidden;
+}
+.text-run h2{
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.edu-text{
+    color: var(--color3-green-best);
+    font-size: 18px;
+}
+.manzil{
+    color: var(--color2-white);
+}
+.language-course{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color2-white);
+    font-weight: 500;
+
+}
+.language-course p{
+    padding: 0;
+    margin: 5px;
+}
+@media (min-width: 426px) and (max-width: 700px) {
+    .info{
+        padding: 1.5rem;
+    }
+    .education-info {
+        padding: 0 2rem;
+        gap: 1rem;
+        display: inline-block;
+    }
+    .education-info div:nth-child(1){
+        display: flex;
+        justify-content: center;
+    }
+    .info-img {
+        width: 250px;
+        height: 180px;
+    }
+    .batafsil-text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .edu-text {
+        font-size: 14px;
+        text-align: center;
+    }
+    .manzil{
+        text-align: center;
+    }
+    .text-run{
+        width: 8%;
+        height: 480px;
+        padding: 0 15px 0 15px;
+
+    }
+}
+
+@media screen and (max-width: 425.9px) {
+    .info{
+        padding: 10px;
+    }
+    .education-info {
+        padding: 0 0.5rem;
+        gap: 1rem;
+        display: inline-block;
+    }
+    .education-info div:nth-child(1){
+        display: flex;
+        justify-content: center;
+    }
+    .info-img {
+        width: 150px;
+        height: 120px;
+    }
+    .batafsil-text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .edu-text {
+        font-size: 12px;
+        text-align: center;
+    }
+    .manzil{
+        text-align: center;
+    }
+    .text-run{
+        width: 10%;
+        height: 410px;
+        padding: 0 12px 0 12px;
+
+    }
+}

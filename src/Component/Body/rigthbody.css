@@ -1,0 +1,50 @@
+.rightbody{
+    background-color: var(--color1-green);
+    width: 20%;
+    box-shadow: 5px 5px 18px 5px var(--color1-green);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.rb-text{
+    color: var(--color2-white);
+    font-weight: 700;
+    text-align: center;
+}
+.top-educenter{
+    padding: 4px 3px;
+
+}
+.top-center{
+    gap:5px;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.top-center p {
+    color: var(--color3-green-best);
+    padding: 0;
+    margin: 0;
+}
+.center-icon{
+    color: #e0c70e;
+}
+.center-icon2{
+    color: gray;
+}
+@media screen  and (max-width: 700px) {
+    .rightbody{
+        width: 100%;
+        margin-top: 2rem;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .top-educenter{
+    }
+    .top-educenter .course{
+        width: 60%;
+        margin:20px auto;
+    }
+}
